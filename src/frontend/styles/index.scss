@@ -1,0 +1,73 @@
+$app-background: #fafafa;
+$table-border-color: #919191;
+$table-hover-color: #d4d4d4;
+
+.home {
+    text-align: center;
+    width: 100%;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+body {
+    background: $app-background;
+}
+
+.field-container {
+    width:100%;
+    text-align:center;
+}
+
+.table-container {
+    margin:10px;
+    display: inline-block”
+}
+
+
+.table {
+
+    .table-body {
+
+        .row {
+            width: 20px;
+            display:table-row;
+        }
+
+        .column {
+            width: 20px;
+            height: 20px;
+            border:1px solid $table-border-color;
+            display: table-cell;
+        }
+
+        .column-rival {
+            cursor:pointer;
+        }
+
+        .column-rival:hover {
+            background-color:$table-hover-color;
+        }
+
+        display: table-row-group;
+    }
+
+    transition: all 0.5s ease-out;
+    width: 300px;
+    display: inline; 
+}
+
+.block-table {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+
