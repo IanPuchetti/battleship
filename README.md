@@ -9,13 +9,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-`git clone https://gitlab.com/ianpuchetti/battleship/`
+`git clone https://github.com/ianpuchetti/battleship/`
 
 `cd battleship`
 
 `npm i`
 
 ## Running the project
+
+You need to run the frontend and the backend to play:
 
 Frontend
 
